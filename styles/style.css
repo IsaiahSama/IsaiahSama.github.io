@@ -1,3 +1,7 @@
 .footer-items{
     min-height: 10vh;
 }
+
+p{
+  padding-bottom: 1em
+}
