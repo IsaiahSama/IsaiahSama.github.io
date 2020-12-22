@@ -1,9 +1,7 @@
-.footer-items{
-    min-height: 2vh;
-}
 
 footer{
   max-heigt: 2.2VH;
+  text-align: center;
 }
 p{
   padding-bottom: 1em
