@@ -2,6 +2,9 @@
     min-height: 2vh;
 }
 
+footer{
+  max-heigt: 2.2VH;
+}
 p{
   padding-bottom: 1em
 }
