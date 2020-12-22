@@ -1,8 +1,9 @@
-
 footer{
   max-heigt: 2.2VH;
   text-align: center;
+  font-style: italic;
 }
+
 p{
   padding-bottom: 1em
 }
@@ -12,5 +13,9 @@ header{
 }
 
 nav{
-  color:white
+  color:#fff
+}
+
+h2{
+  text-decoration: underline
 }
