@@ -1,16 +1,31 @@
-.footer-items{
-    min-height: 10vh;
-}
-
-body{
-    background-color: rgb(169, 248, 222);
-}
-
-section{
-    background-color:  rgb(231, 247, 241);
-    margin:1em;
+footer{
+  min-height: 2VH;
+  text-align: center;
+  font-style: italic;
+  background-color: #333;
+  color: #fff
 }
 
 p{
-    padding-bottom: 1em;
+  padding-bottom: 1em
+}
+
+header{
+  margin-bottom: 1em
+}
+
+nav{
+  color:#fff
+}
+
+h2{
+  text-decoration: underline
+}
+
+section{
+  margin-bottom: 1em
+}
+
+h1{
+  text-align: center;
 }
