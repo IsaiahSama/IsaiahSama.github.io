@@ -1,3 +1,16 @@
 .footer-items{
     min-height: 10vh;
 }
+
+body{
+    background-color: rgb(169, 248, 222);
+}
+
+section{
+    background-color:  rgb(231, 247, 241);
+    margin:1em;
+}
+
+p{
+    padding-bottom: 1em;
+}
