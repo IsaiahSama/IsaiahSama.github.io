@@ -23,9 +23,21 @@ h2{
 }
 
 section{
-  margin-bottom: 1em
+  margin-bottom: 1.5em
 }
 
 h1{
   text-align: center;
+}
+
+article{
+  padding: 0.5em, 0, 0.5em, 0;
+}
+
+article h2{
+  margin-bottom: 0.5em;
+}
+
+article p::first-line{
+  text-indent: 2em;
 }
