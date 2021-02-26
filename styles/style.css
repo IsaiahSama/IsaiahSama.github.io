@@ -4,20 +4,20 @@ footer{
   font-style: italic;
   background-color: #333;
   color: #fff
-  
   }
   
 body{
-  background-color: rgb(71, 2, 71);
-  color:rgb(218, 8, 218)
+  background-color: #fff;
+  color:rgb(0, 0, 0); 
+  font-family:Montserrat;
 }
 
 p{
-  padding-bottom: 1em
+  padding-bottom: 0.2em
 }
 
 header{
-  margin-bottom: 1em
+  margin-bottom: 0.5em
 }
 
 nav{
@@ -25,11 +25,11 @@ nav{
 }
 
 h2{
-  text-decoration: underline
+  color:rgb(192, 5, 192);
 }
 
 section{
-  margin-bottom: 1.5em
+  margin-bottom: 1em
 }
 
 h1{
@@ -37,12 +37,13 @@ h1{
 }
 
 article{
-  margin-top: 1.2em;
+  margin-top: 0em;
   padding: 0.5em, 0, 0.5em, 0;
 }
 
 article h2{
-  margin-bottom: 0.5em;
+  margin-bottom: 0.2em;
+  font-weight:bold;
 }
 
 article p::first-line{
