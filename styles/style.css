@@ -1,7 +1,4 @@
-/* Global */
-*{
-  overflow-x: hidden;
-}
+
 /* Body and header1 */
 
 header{
@@ -21,6 +18,7 @@ body{
   background-color: #fff;
   color:black; 
   font-family:Montserrat;
+  overflow-x:hidden
 }
 
 /* Sections articles, paragraph and headings */
