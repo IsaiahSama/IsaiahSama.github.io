@@ -2,8 +2,10 @@
 /* Body and header1 */
 
 header{
-  margin-bottom: 0.5em;
+  margin-bottom: 0em;
   position:sticky;
+  top: 0px;
+  z-index:2
 }
 
 nav{
