@@ -2,7 +2,8 @@
 /* Body and header1 */
 
 header{
-  margin-bottom: 0.5em
+  margin-bottom: 0.5em;
+  position:sticky;
 }
 
 nav{
@@ -25,6 +26,10 @@ body{
 
 section{
   margin-bottom: 1em
+}
+
+section h2{
+  font-size:3em;
 }
 
 article{
@@ -52,7 +57,7 @@ article p::first-line{
 /* spikes  */
 .spikes {
   position: relative;
-  background: rgb(75, 0, 75);
+  background: rgb(99, 64, 153);
   height: 50vh;
 }
 
@@ -68,7 +73,7 @@ article p::first-line{
 /* the spacer  */
 .curved {
   position: relative;
-  background: rgb(75, 0, 75);
+  background: rgb(99, 64, 153);
   height: 50vh;
   text-align: center;
 }
