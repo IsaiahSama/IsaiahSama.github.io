@@ -114,6 +114,13 @@ article p::first-line{
   background-blend-mode: lighten;
 }
 
+.lessons{
+  background-image:url(/images/studyjazz.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-blend-mode: lighten;
+}
+
 /* footer  */
 
 footer{
