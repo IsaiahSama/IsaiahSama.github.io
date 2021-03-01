@@ -98,6 +98,13 @@ article p::first-line{
   font-style: italic;
 }
 
+.sr{
+  background-image: url("/images/laptop_PNG5875.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-blend-mode: lighten;
+}
+
 /* footer  */
 
 footer{
