@@ -12,9 +12,6 @@ nav{
   color:#fff
 }
 
-h1{
-  text-align: center;
-}
 
 /* Body */
 body{
@@ -28,10 +25,6 @@ body{
 
 section{
   margin-bottom: 1em
-}
-
-section h2{
-  font-size:3em;
 }
 
 article{
@@ -56,19 +49,34 @@ article p::first-line{
   text-indent: 2em;
 }
 
-/* spikes  */
-.spikes {
+/* heading_block  */
+.heading_block {
   position: relative;
   background: rgb(99, 64, 153);
   height: 50vh;
+  text-align: center;
 }
 
-.spikes h1{
+.heading_block h1{
   position: relative;
-  padding-top:20VH;
+  padding-top:5VH;
   color:white;
-  font-weight: 200;
+  font-weight: 300;
   font-style:italic;
+}
+
+.heading_block h2{
+  padding-top: 0.5em;
+  position:relative;
+  color:white;
+  font-weight: 50;
+  font-style: italic;  
+}
+
+.logo{
+  padding-top:1em;
+  max-height: 150px;
+  max-width: 200px;
 }
 
 
@@ -100,6 +108,34 @@ article p::first-line{
 
 .sr{
   background-image: url("/images/laptop_PNG5875.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-blend-mode: lighten;
+}
+
+.sa{
+  background-image: url(/images/codebg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-blend-mode: lighten;
+}
+
+.lessons{
+  background-image:url(/images/studyjazz.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-blend-mode: lighten;
+}
+
+.cap{
+  background-image: url(/images/scratch.jpg);
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-blend-mode: lighten;
+}
+
+.discord{
+  background-image: url(/images/dbots.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-blend-mode: lighten;
