@@ -59,18 +59,24 @@ article p::first-line{
 
 .heading_block h1{
   position: relative;
-  padding-top:20VH;
+  padding-top:5VH;
   color:white;
   font-weight: 300;
   font-style:italic;
 }
 
 .heading_block h2{
-  padding-top: 1em;
+  padding-top: 0.5em;
   position:relative;
   color:white;
   font-weight: 50;
   font-style: italic;  
+}
+
+.logo{
+  padding-top:1em;
+  max-height: 150px;
+  max-width: 200px;
 }
 
 
