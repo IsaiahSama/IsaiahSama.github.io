@@ -121,6 +121,20 @@ article p::first-line{
   background-blend-mode: lighten;
 }
 
+.cap{
+  background-image: url(/images/scratch.jpg);
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-blend-mode: lighten;
+}
+
+.discord{
+  background-image: url(/images/dbots.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-blend-mode: lighten;
+}
+
 /* footer  */
 
 footer{
