@@ -135,10 +135,11 @@ article p::first-line{
 }
 
 .discord{
-  background-image: url(/images/dbots.jpg);
+  background-image: url(/images/discordlogo.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 20%;
   background-blend-mode: lighten;
+  background-position: left;
 }
 
 /* footer  */
