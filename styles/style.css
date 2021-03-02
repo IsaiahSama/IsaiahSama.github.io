@@ -109,8 +109,10 @@ article p::first-line{
 .sr{
   background-image: url("/images/laptop_PNG5875.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 20%;
   background-blend-mode: lighten;
+  background-position-y: center;
+  background-position-x: 5%;
 }
 
 .sa{
@@ -118,28 +120,50 @@ article p::first-line{
   background-repeat: no-repeat;
   background-size: contain;
   background-blend-mode: lighten;
+  background-position-y: center;
+  background-position-x: left;
 }
 
 .lessons{
   background-image:url(/images/studyjazz.png);
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size:20%;
   background-blend-mode: lighten;
+  background-position-y: center;
+  background-position-x: 5%;
 }
 
 .cap{
   background-image: url(/images/scratch.jpg);
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size:20%;
   background-blend-mode: lighten;
+  background-position-y: center;
+  background-position-x: 5%;
 }
 
 .discord{
-  background-image: url(/images/dbots.jpg);
+  background-image: url(/images/discordlogo.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 20%;
   background-blend-mode: lighten;
+  background-position-x: 5%;
+  background-position-y: center;
 }
+
+/* Table */
+/* 
+tr{
+  color: #fff;
+}
+
+tr:nth-child(even){
+  background-color: blueviolet;
+}
+
+tr:nth-child(odd){
+  background-color: rgb(99, 64, 153);
+} */
 
 /* footer  */
 
