@@ -106,13 +106,16 @@ article p::first-line{
   font-style: italic;
 }
 
-.sr{
-  background-image: url("/images/laptop_PNG5875.png");
+.banner_image{
   background-repeat: no-repeat;
-  background-size: 20%;
+  background-size:20%;
   background-blend-mode: lighten;
   background-position-y: center;
   background-position-x: 5%;
+}
+
+.sr{
+  background-image: url("/images/laptop_PNG5875.png");
 }
 
 .sa{
@@ -126,29 +129,14 @@ article p::first-line{
 
 .lessons{
   background-image:url(/images/studyjazz.png);
-  background-repeat: no-repeat;
-  background-size:20%;
-  background-blend-mode: lighten;
-  background-position-y: center;
-  background-position-x: 5%;
 }
 
 .cap{
   background-image: url(/images/scratch.jpg);
-  background-repeat: no-repeat;
-  background-size:20%;
-  background-blend-mode: lighten;
-  background-position-y: center;
-  background-position-x: 5%;
 }
 
 .discord{
   background-image: url(/images/discordlogo.png);
-  background-repeat: no-repeat;
-  background-size: 20%;
-  background-blend-mode: lighten;
-  background-position-x: 5%;
-  background-position-y: center;
 }
 
 /* Table */
@@ -174,3 +162,49 @@ footer{
   background-color: #333;
   color: #fff
   }
+
+/* Media Query for banner stuff */
+@media only screen and (max-width: 600px) {
+  .curved {
+    position: relative;
+    background: rgb(99, 64, 153);
+    height: 25vh;
+    text-align: center;
+  }
+  
+  .curved h2{
+    padding-top:10vh;
+    color:#fff;
+    font-weight:300;
+    font-style: italic;
+  }
+
+  .banner_image{
+    background-repeat: no-repeat;
+    background-size:20%;
+    background-blend-mode: lighten;
+    background-position-y: center;
+    background-position-x: center;
+  }
+
+  .sr{
+    background-image: url("/images/laptop_PNG5875.png");
+  }
+  
+  .sa{
+    background-image: url(/images/codebg.png);
+    background-size: contain;
+  }
+  
+  .lessons{
+    background-image:url(/images/studyjazz.png);
+  }
+  
+  .cap{
+    background-image: url(/images/scratch.jpg);
+  }
+  
+  .discord{
+    background-image: url(/images/discordlogo.png);
+  }
+}
