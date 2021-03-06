@@ -18,7 +18,7 @@ body{
   background-color: #fff;
   color:black; 
   font-family:Montserrat;
-  overflow-x:hidden
+  overflow-x: hidden;
 }
 
 /* Sections articles, paragraph and headings */
@@ -33,7 +33,7 @@ article{
 }
 
 h3{
-  color:rgb(90, 0, 75);
+  color:rgb(99, 64, 153)
 }
 
 article h3{
@@ -75,8 +75,8 @@ article p::first-line{
 
 .logo{
   padding-top:1em;
-  max-height: 200px;
-  max-width: 250px;
+  max-height: 150px;
+  max-width: 200px;
 }
 
 
@@ -169,14 +169,19 @@ footer{
     position: relative;
     background: rgb(99, 64, 153);
     height: 25vh;
-    text-align: center;
+    text-align: left;
+  }
+
+  .curved::after {
+    display: none;
   }
   
   .curved h2{
-    padding-top:10vh;
+    position: absolute;
     color:#fff;
-    font-weight:300;
+    font-weight:600;
     font-style: italic;
+    bottom:0
   }
 
   .banner_image{
