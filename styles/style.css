@@ -106,13 +106,16 @@ article p::first-line{
   font-style: italic;
 }
 
-.sr{
-  background-image: url("/images/laptop_PNG5875.png");
+.banner_image{
   background-repeat: no-repeat;
-  background-size: 20%;
+  background-size:20%;
   background-blend-mode: lighten;
   background-position-y: center;
   background-position-x: 5%;
+}
+
+.sr{
+  background-image: url("/images/laptop_PNG5875.png");
 }
 
 .sa{
@@ -126,29 +129,14 @@ article p::first-line{
 
 .lessons{
   background-image:url(/images/studyjazz.png);
-  background-repeat: no-repeat;
-  background-size:20%;
-  background-blend-mode: lighten;
-  background-position-y: center;
-  background-position-x: 5%;
 }
 
 .cap{
   background-image: url(/images/scratch.jpg);
-  background-repeat: no-repeat;
-  background-size:20%;
-  background-blend-mode: lighten;
-  background-position-y: center;
-  background-position-x: 5%;
 }
 
 .discord{
   background-image: url(/images/discordlogo.png);
-  background-repeat: no-repeat;
-  background-size: 20%;
-  background-blend-mode: lighten;
-  background-position-x: 5%;
-  background-position-y: center;
 }
 
 /* Table */
