@@ -18,7 +18,7 @@ body{
   background-color: #fff;
   color:black; 
   font-family:Montserrat;
-  overflow-x:hidden
+  overflow-x: hidden;
 }
 
 /* Sections articles, paragraph and headings */
@@ -32,8 +32,8 @@ article{
   padding: 0.5em, 0, 0.5em, 0;
 }
 
-h3{
-  color:rgb(90, 0, 75);
+h1, h2, h3{
+  color:rgb(99, 64, 153)
 }
 
 article h3{
@@ -75,8 +75,8 @@ article p::first-line{
 
 .logo{
   padding-top:1em;
-  max-height: 200px;
-  max-width: 250px;
+  max-height: 150px;
+  max-width: 200px;
 }
 
 
@@ -106,13 +106,16 @@ article p::first-line{
   font-style: italic;
 }
 
-.sr{
-  background-image: url("/images/laptop_PNG5875.png");
+.banner_image{
   background-repeat: no-repeat;
-  background-size: 20%;
+  background-size:20%;
   background-blend-mode: lighten;
   background-position-y: center;
   background-position-x: 5%;
+}
+
+.sr{
+  background-image: url("/images/laptop_PNG5875.png");
 }
 
 .sa{
@@ -126,29 +129,18 @@ article p::first-line{
 
 .lessons{
   background-image:url(/images/studyjazz.png);
-  background-repeat: no-repeat;
-  background-size:20%;
-  background-blend-mode: lighten;
-  background-position-y: center;
-  background-position-x: 5%;
 }
 
 .cap{
   background-image: url(/images/scratch.jpg);
-  background-repeat: no-repeat;
-  background-size:20%;
-  background-blend-mode: lighten;
-  background-position-y: center;
-  background-position-x: 5%;
 }
 
 .discord{
   background-image: url(/images/discordlogo.png);
-  background-repeat: no-repeat;
-  background-size: 20%;
-  background-blend-mode: lighten;
-  background-position-x: 5%;
-  background-position-y: center;
+}
+
+.services{
+  background-image: url(/images/cogs.jpg);
 }
 
 /* Table */
@@ -174,3 +166,54 @@ footer{
   background-color: #333;
   color: #fff
   }
+
+/* Media Query for banner stuff */
+@media only screen and (max-width: 600px) {
+  .curved {
+    position: relative;
+    background: rgb(99, 64, 153);
+    height: 25vh;
+    text-align: left;
+  }
+
+  .curved::after {
+    display: none;
+  }
+  
+  .curved h2{
+    position: absolute;
+    color:#fff;
+    font-weight:600;
+    font-style: italic;
+    bottom:0
+  }
+
+  .banner_image{
+    background-repeat: no-repeat;
+    background-size:20%;
+    background-blend-mode: lighten;
+    background-position-y: center;
+    background-position-x: center;
+  }
+
+  .sr{
+    background-image: url("/images/laptop_PNG5875.png");
+  }
+  
+  .sa{
+    background-image: url(/images/codebg.png);
+    background-size: contain;
+  }
+  
+  .lessons{
+    background-image:url(/images/studyjazz.png);
+  }
+  
+  .cap{
+    background-image: url(/images/scratch.jpg);
+  }
+  
+  .discord{
+    background-image: url(/images/discordlogo.png);
+  }
+}
