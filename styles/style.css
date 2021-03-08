@@ -81,6 +81,7 @@ article p::first-line{
 
 
 /* the spacer  */
+
 .curved {
   position: relative;
   background: rgb(99, 64, 153);
@@ -103,6 +104,20 @@ article p::first-line{
   padding-top:15vh;
   color:#fff;
   font-weight:300;
+  font-style: italic;
+}
+
+.spacer {
+  position: relative;
+  background: rgb(99, 64, 153);
+  height: 50vh;
+  text-align: center;
+}
+
+.spacer h2{
+  padding-top:10%;
+  color:#fff;
+  font-weight:500;
   font-style: italic;
 }
 
