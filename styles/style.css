@@ -60,15 +60,15 @@ article p::first-line{
 
 .heading_block h1{
   position: relative;
-  padding-top:5VH;
+  top:20%;
   color:white;
   font-weight: 300;
   font-style:italic;
 }
 
 .heading_block h2{
-  padding-top: 0.5em;
   position:relative;
+  top: 20%;
   color:white;
   font-weight: 50;
   font-style: italic;  
