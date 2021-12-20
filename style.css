@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    min-width: 100vw;
+    min-height: 10vh;
+    max-height: 10VH;
+    border: blue 3px solid;
+    margin-top: 3em;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/* Classes */
+
+.full-width{
+    min-width: 100%;
+    border: red solid 2px;
+}
+
+.fixed-up{
+    position: fixed;
+}
+
+.inline{
+    display: inline;
+}
+
+.lefty{
+    float: left;
+}
+
+.righty{
+    float: right;
+}
+
+.heavy-font{
+    font-weight: bolder;
+    font-size: 2em;
+    padding: 1em;
+}
