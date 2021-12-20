@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 h2, h3{
@@ -35,6 +34,10 @@ li a{
 }
 
 /* Classes */
+
+.no-overflow{
+    overflow-y: hidden;
+}
 /* Style for the current highlighted link */
 .current{
     color:rgb(99, 64, 153);
