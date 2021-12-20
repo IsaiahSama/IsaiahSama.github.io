@@ -34,7 +34,7 @@ li a{
 }
 
 li a:hover{
-    color:blue;
+    color:rgb(99, 64, 153);
 }
 
 /* Classes */
@@ -52,7 +52,7 @@ li a:hover{
 }
 /* Style for the current highlighted link */
 .current{
-    color:blue;
+    color:rgb(99, 64, 153);
     text-decoration: underline;
 }
 
