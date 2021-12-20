@@ -5,6 +5,9 @@
     overflow-y: hidden;
 }
 
+h2, h3{
+    margin-bottom: 1em;
+}
 
 nav{
     min-width: 100vw;
