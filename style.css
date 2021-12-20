@@ -121,4 +121,5 @@ li a{
     width:10em;
     height:10em;
     border-radius: 50%;
+    filter: drop-shadow(-5px 5px 4px rgb(167, 145, 104));
 }
