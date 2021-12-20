@@ -37,6 +37,12 @@ li a:hover{
     color:rgb(99, 64, 153);
 }
 
+button{
+    border-radius: 30%;
+    padding: 0.5em 2em 0.5em 2em;
+    margin-bottom: 1em;
+}
+
 /* Classes */
 
 .no-overflow{
@@ -114,6 +120,18 @@ li a:hover{
     max-width: 50%;
     max-height: 100%;
     border: orangered 2px solid;
+}
+
+.primary{
+    background-color: rgb(99, 64, 153);
+}
+
+.primary a{
+    color:white
+}
+
+.secondary{
+    background-color: white;
 }
 
 .bg-wheat{
