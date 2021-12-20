@@ -4,10 +4,6 @@
     overflow-x: hidden;
 }
 
-h2, h3{
-    margin-bottom: 1em;
-}
-
 nav{
     min-width: 100vw;
     min-height: 10vh;
@@ -19,6 +15,10 @@ nav{
 nav ul{
     list-style-type: none;
     padding-top: 0.7em;
+}
+
+p{
+    margin-bottom: 0.5em;
 }
 
 p a{
@@ -37,6 +37,14 @@ li a{
 
 .no-overflow{
     overflow-y: hidden;
+}
+
+.font-larger{
+    font-size: 5em;
+}
+
+.font-large{
+    font-size: 2em;
 }
 /* Style for the current highlighted link */
 .current{
@@ -86,15 +94,18 @@ li a{
 
 .inner-centered-content{
     min-width: 30%;
-    max-width: 40%;
+    max-width: 70%;
     margin-top: 5%;
-    margin-left: 25%;
+    margin-left: 15%;
     margin-right: 10%;
     border: 3px yellow dashed;
 }
 
-.half-box{
+.center-text{
     text-align: center;
+}
+
+.half-box{
     min-width: 45%;
     max-width: 50%;
     max-height: 100%;
