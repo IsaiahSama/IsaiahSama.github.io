@@ -66,6 +66,9 @@ li a{
 .heavy-font{
     font-weight: bolder;
     font-size: 2em;
+}
+
+.padded{
     padding: 1em;
 }
 
@@ -79,15 +82,29 @@ li a{
 }
 
 .inner-centered-content{
-    min-width: 60%;
-    max-width: 80%;
+    min-width: 30%;
+    max-width: 40%;
     margin-top: 5%;
-    margin-left: 10%;
+    margin-left: 25%;
     margin-right: 10%;
     border: 3px yellow dashed;
 }
 
 .half-box{
-    min-width: 30%;
-    max-width: 40%;
+    text-align: center;
+    min-width: 45%;
+    max-width: 50%;
+    max-height: 100%;
+    border: orangered 2px solid;
+}
+
+.bg-wheat{
+    background-color: wheat;
+}
+
+.profile-img{
+    padding: 1em;
+    width:10em;
+    height:10em;
+    border-radius: 50%;
 }
