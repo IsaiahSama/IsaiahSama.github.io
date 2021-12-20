@@ -43,6 +43,15 @@ button{
     margin-bottom: 1em;
 }
 
+footer{
+    min-height: 10VH;
+    min-width: 100%;
+    filter: drop-shadow(-3px -6px 5px #000000);
+}
+
+footer span{
+    padding: 1em;
+}
 /* Classes */
 
 .no-overflow{
@@ -64,6 +73,7 @@ button{
 
 .full-width{
     min-width: 90%;
+    max-width: 95%;
     border: red solid 2px;
 }
 
@@ -144,4 +154,9 @@ button{
     height:10em;
     border-radius: 50%;
     filter: drop-shadow(-5px 5px 4px rgb(167, 145, 104));
+}
+
+.footer{
+    min-width: 70%;
+    margin: 0em 2em 0em 2em;
 }
