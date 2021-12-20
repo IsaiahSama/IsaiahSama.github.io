@@ -33,6 +33,10 @@ li a{
     text-transform: uppercase;
 }
 
+li a:hover{
+    color:blue;
+}
+
 /* Classes */
 
 .no-overflow{
@@ -48,7 +52,7 @@ li a{
 }
 /* Style for the current highlighted link */
 .current{
-    color:rgb(99, 64, 153);
+    color:blue;
     text-decoration: underline;
 }
 
@@ -113,7 +117,7 @@ li a{
 }
 
 .bg-wheat{
-    background-color: wheat;
+    background-color: rgb(255, 248, 235);
 }
 
 .profile-img{
