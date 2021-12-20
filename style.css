@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 
@@ -12,14 +14,27 @@ nav{
     margin-top: 3em;
 }
 
-ul{
+nav ul{
     list-style-type: none;
+    padding-top: 0.7em;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    text-transform: uppercase;
 }
 
 /* Classes */
+/* Style for the current highlighted link */
+.current{
+    color:rgb(99, 64, 153);
+    text-decoration: underline;
+}
 
 .full-width{
-    min-width: 100%;
+    min-width: 90%;
     border: red solid 2px;
 }
 
@@ -29,6 +44,7 @@ ul{
 
 .inline{
     display: inline;
+    padding:1em;
 }
 
 .lefty{
