@@ -46,12 +46,16 @@ button{
 footer{
     min-height: 10VH;
     min-width: 100%;
-    filter: drop-shadow(-3px -6px 5px #000000);
+    position: relative;
+    bottom: 10VH;
+    border: 3px grey solid;
 }
 
 footer span{
     padding: 1em;
+    border: brown 2px solid;
 }
+
 /* Classes */
 
 .no-overflow{
