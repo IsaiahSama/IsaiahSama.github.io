@@ -161,6 +161,10 @@ footer span{
     color:white
 }
 
+.primary a:hover{
+    color:yellow;
+}
+
 .secondary{
     background-color: lightblue;
 }
