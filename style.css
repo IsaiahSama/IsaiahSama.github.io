@@ -104,6 +104,10 @@ footer span{
     font-size: 2em;
 }
 
+.top-padded{
+    padding: 1em 0em 1em 0em;
+}
+
 .padded{
     padding: 1em;
 }

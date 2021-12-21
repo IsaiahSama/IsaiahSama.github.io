@@ -1,3 +1,5 @@
+
+/* Classes  */
 .resume-area{
     margin-top: 1em;
     border: salmon 2px solid;
@@ -6,8 +8,42 @@
 
 .resume-box{
     margin-bottom: 1em;
+    padding: 1em;
     max-width: 60%;
     margin-left: 20%;
     margin-right: 20%;
+    background-color: rgb(253, 245, 232);
+    filter: drop-shadow(-5px -5px 5px rgb(202, 196, 186));
     border: cyan 2px solid;
+}
+
+.resume-box li{
+    padding: 0.3em;
+}
+
+.date-range{
+    color: rgb(99, 64, 153);
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.job-title{
+    font-weight: bold;
+}
+
+.list-section{
+    padding-left: 2em; 
+}
+
+.main-list li{
+    overflow: visible;
+    list-style-type: disc;
+    display: list-item;
+}
+
+.sub-list li{
+    overflow: visible;
+    list-style-type:square;
+    display: list-item;
 }
