@@ -63,6 +63,10 @@ footer span{
     overflow-y: hidden;
 }
 
+.no-style{
+    list-style-type: none;
+}
+
 .font-larger{
     font-size: 5em;
 }
