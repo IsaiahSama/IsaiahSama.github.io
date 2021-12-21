@@ -74,6 +74,10 @@ footer span{
 .font-large{
     font-size: 2em;
 }
+
+.font-weighted{
+    font-weight: bolder;
+}
 /* Style for the current highlighted link */
 .current{
     color:rgb(99, 64, 153);
