@@ -1,4 +1,13 @@
-.resume-box{
+.resume-area{
     margin-top: 1em;
+    border: salmon 2px solid;
+    min-width: 100VW;
+}
+
+.resume-box{
     margin-bottom: 1em;
+    max-width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: cyan 2px solid;
 }
