@@ -2,7 +2,7 @@
 /* Classes  */
 .resume-area{
     margin-top: 0.5em;
-    border: salmon 2px solid;
+    /* border: salmon 2px solid; */
     min-width: 100VW;
 }
 
@@ -14,7 +14,7 @@
     margin-right: 20%;
     background-color: rgb(253, 245, 232);
     filter: drop-shadow(-8px 10px 3px rgb(235, 228, 216));
-    border: cyan 2px solid;
+    /* border: cyan 2px solid; */
 }
 
 .resume-box li{
