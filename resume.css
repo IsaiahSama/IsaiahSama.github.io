@@ -13,7 +13,7 @@
     margin-left: 20%;
     margin-right: 20%;
     background-color: rgb(253, 245, 232);
-    filter: drop-shadow(-5px -5px 5px rgb(235, 228, 216));
+    filter: drop-shadow(-8px 10px 3px rgb(235, 228, 216));
     border: cyan 2px solid;
 }
 
