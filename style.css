@@ -172,6 +172,11 @@ footer span{
     filter: drop-shadow(-5px 5px 4px rgb(167, 145, 104));
 }
 
+.basic-link{
+    color: blue;
+    text-decoration: underline;
+}
+
 .footer{
     min-width: 70%;
     margin: 0em 2em 0em 2em;
