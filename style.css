@@ -17,6 +17,11 @@ nav ul{
     padding-top: 0.7em;
 }
 
+nav ul li.inline{
+    display:inline;
+    padding: 0.5em;
+}
+
 p{
     margin-bottom: 0.5em;
 }
@@ -126,7 +131,7 @@ footer span{
 .centered-content{
     min-width: 100%;
     min-height: 60VH;
-    margin-top: 10VH;
+    margin-top: 5VH;
     /* border: 5px green solid; */
     align-items: center;
 }
@@ -199,7 +204,6 @@ footer span{
     .centered-content{
         min-width: 95%;
         min-height: 60VH;
-        margin-top: 10VH;
         /* border: 5px green solid; */
         align-items: center;
     }
