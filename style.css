@@ -154,6 +154,7 @@ footer span{
 
 .primary{
     background-color: rgb(99, 64, 153);
+    min-width: 50%;
 }
 
 .primary a{
@@ -166,6 +167,7 @@ footer span{
 
 .secondary{
     background-color: lightblue;
+    min-width:50%;
 }
 
 .bg-wheat{
