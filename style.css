@@ -29,7 +29,7 @@ p a{
 li a{
     text-decoration: none;
     color: black;
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-transform: uppercase;
 }
 
@@ -67,11 +67,11 @@ footer span{
 }
 
 .font-larger{
-    font-size: 5em;
+    font-size: 3em;
 }
 
 .font-large{
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .font-weighted{
@@ -116,7 +116,7 @@ footer span{
 }
 
 .padded{
-    padding: 1em;
+    padding: 0.5em;
 }
 
 .padded p:nth-child(even){
@@ -134,7 +134,7 @@ footer span{
 
 .inner-centered-content{
     min-width: 30%;
-    max-width: 70%;
+    max-width: 100%;
     margin-top: 5%;
     margin-left: 15%;
     margin-right: 10%;
@@ -197,5 +197,51 @@ footer span{
     .half-box{
         min-width: 45%;
         max-width: 50%;
+    }
+
+    .centered-content{
+        min-width: 95%;
+        min-height: 60VH;
+        margin-top: 10VH;
+        /* border: 5px green solid; */
+        align-items: center;
+    }
+    
+    .inner-centered-content{
+        min-width: 30%;
+        max-width: 70%;
+        margin-top: 5%;
+        margin-left: 15%;
+        margin-right: 10%;
+        /* border: 3px yellow dashed; */
+    }
+
+    .primary{
+        background-color: rgb(99, 64, 153);
+        min-width: none;
+    }
+
+    .secondary{
+        background-color: lightblue;
+        min-width: none;
+    }
+
+    .padded{
+        padding: 1em;
+    }
+
+    .font-larger{
+        font-size: 5em;
+    }
+
+    .font-large{
+        font-size: 2em;
+    }
+
+    li a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.2em;
+        text-transform: uppercase;
     }
 }
