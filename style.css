@@ -84,8 +84,7 @@ footer span{
 }
 
 .full-width{
-    min-width: 90%;
-    max-width: 95%;
+    min-width: 100%;
     /* border: red solid 2px; */
 }
 
@@ -103,7 +102,7 @@ footer span{
 }
 
 .righty{
-    float: right;
+    float: left;
 }
 
 .heavy-font{
@@ -125,7 +124,7 @@ footer span{
 }
 
 .centered-content{
-    min-width: 95%;
+    min-width: 100%;
     min-height: 60VH;
     margin-top: 10VH;
     /* border: 5px green solid; */
@@ -135,9 +134,7 @@ footer span{
 .inner-centered-content{
     min-width: 30%;
     max-width: 100%;
-    margin-top: 5%;
-    margin-left: 15%;
-    margin-right: 10%;
+    margin: 5%;
     /* border: 3px yellow dashed; */
 }
 
@@ -243,5 +240,21 @@ footer span{
         color: black;
         font-size: 1.2em;
         text-transform: uppercase;
+    }
+
+    .full-width{
+        min-width: 90%;
+        max-width: 95%;
+        /* border: red solid 2px; */
+    }
+
+    .inner-centered-content{
+        margin-left: 15%;
+        margin-right: 10%;
+        /* border: 3px yellow dashed; */
+    }
+
+    .righty{
+        float:right
     }
 }
