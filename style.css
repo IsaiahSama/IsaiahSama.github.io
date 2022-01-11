@@ -8,7 +8,6 @@
 nav{
     min-width: 100vw;
     min-height: 10vh;
-    max-height: 10VH;
     /* border: blue 3px solid; */
     margin-top: 3em;
 }
@@ -147,9 +146,9 @@ footer span{
 }
 
 .half-box{
-    min-width: 45%;
+    min-width: 100%;
     max-width: 50%;
-    max-height: 100%;
+    /* max-height: 100%; */
     /* border: orangered 2px solid; */
 }
 
@@ -189,4 +188,12 @@ footer span{
 .footer{
     min-width: 70%;
     margin: 0em 2em 0em 2em;
+}
+
+@media only screen and (min-width: 780px) {
+    /* For computers */
+    .half-box{
+        min-width: 45%;
+        max-width: 50%;
+    }
 }
