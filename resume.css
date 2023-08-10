@@ -1,49 +1,57 @@
-
 /* Classes  */
-.resume-area{
-    margin-top: 0.5em;
-    /* border: salmon 2px solid; */
-    min-width: 100VW;
+.resume-area {
+  margin-top: 0.5em;
+  /* border: salmon 2px solid; */
+  min-width: 100vw;
 }
 
-.resume-box{
-    margin-bottom: 1em;
-    padding: 1em;
-    max-width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
-    background-color: rgb(253, 245, 232);
-    filter: drop-shadow(-8px 10px 3px rgb(235, 228, 216));
-    /* border: cyan 2px solid; */
+.resume-box {
+  margin-bottom: 1em;
+  padding: 1em;
+  max-width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: rgb(253, 245, 232);
+  filter: drop-shadow(-8px 10px 3px rgb(235, 228, 216));
+  /* border: cyan 2px solid; */
 }
 
-.resume-box li{
-    padding: 0.3em;
+.resume-box li {
+  padding: 0.3em;
 }
 
-.date-range{
-    color: rgb(99, 64, 153);
-    font-size: 1.5em;
-    font-weight: bold;
-    margin-bottom: 1em;
+.date-range {
+  color: rgb(99, 64, 153);
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 1em;
 }
 
-.job-title{
-    font-weight: bold;
+.job-title {
+  font-weight: bold;
 }
 
-.list-section{
-    padding-left: 2em; 
+.list-section {
+  padding-left: 2em;
 }
 
-.main-list li{
-    overflow: visible;
-    list-style-type: disc;
-    display: list-item;
+.main-list li {
+  overflow: visible;
+  list-style-type: disc;
+  display: list-item;
 }
 
-.sub-list li{
-    overflow: visible;
-    list-style-type:square;
-    display: list-item;
+.sub-list li {
+  overflow: visible;
+  list-style-type: square;
+  display: list-item;
+}
+
+@media only screen and (max-width: 600px) {
+  .resume-box {
+    max-width: 90%;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 0.7em;
+  }
 }
