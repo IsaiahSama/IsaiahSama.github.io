@@ -332,4 +332,16 @@ td {
   nav p span.inline {
     display: block;
   }
+
+  .resume-box {
+    max-width: 90%;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .project-box {
+    max-width: 90%;
+    width: 90%;
+    margin-left: 5%;
+  }
 }
