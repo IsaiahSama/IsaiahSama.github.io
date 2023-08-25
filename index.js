@@ -13,3 +13,14 @@ function createParticle() {
 }
 
 setInterval(createParticle, 300);
+
+const links = document.querySelectorAll(".link");
+
+const updateElements = (ev) => {
+  document.querySelector(".current").classList.remove("current");
+  ev.target.classList.add("current");
+};
+
+links.forEach((element) => {
+  element.addEventListener("click", updateElements);
+});

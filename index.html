@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="projects.css" />
+    <link rel="stylesheet" href="resume.css" />
+    <script
+      src="https://unpkg.com/htmx.org@1.9.4"
+      integrity="sha384-zUfuhFKKZCbHTY6aRR46gxiqszMk5tcHjsVFxnUo8VMus4kHGVdIYVbOYYNlKmHV"
+      crossorigin="anonymous"
+    ></script>
     <title>ABOUT ME - IsaiahSama</title>
   </head>
   <body>
@@ -21,17 +28,41 @@
           <span class="righty">
             <ul class="no-overflow">
               <li class="inline">
-                <a href="#About" class="current">About Me</a>
+                <a
+                  href="#"
+                  class="link current"
+                  hx-get="/about.html"
+                  hx-target="#contentSection"
+                  hx-swap="innerHTML transition:true"
+                  >About Me</a
+                >
               </li>
-              <li class="inline"><a href="resume.html">Resume</a></li>
-              <li class="inline"><a href="projects.html">Projects</a></li>
-              <!-- <li class='inline'><a href="#Contact">Contact</a></li> -->
+              <li class="inline">
+                <a
+                  href="resume.html"
+                  class="link"
+                  hx-get="/resumeBody.html"
+                  hx-target="#contentSection"
+                  hx-swap="innerHTML transition:true"
+                  >Resume</a
+                >
+              </li>
+              <li class="inline">
+                <a
+                  href="projects.html"
+                  class="link"
+                  hx-get="/projectsBody.html"
+                  hx-target="#contentSection"
+                  hx-swap="innerHTML transition:true"
+                  >Projects</a
+                >
+              </li>
             </ul>
           </span>
         </div>
       </div>
     </nav>
-    <section class="centered-content font-big">
+    <section class="centered-content font-big slide-across" id="contentSection">
       <div class="padded">
         <h2>Hey there, I'm Isaiah!</h2>
         <p>
