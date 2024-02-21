@@ -24,3 +24,13 @@ const updateElements = (ev) => {
 links.forEach((element) => {
   element.addEventListener("click", updateElements);
 });
+
+const toggleDevMode = () => {
+  let body = document.body;
+
+  if (body.className == "dev-mode"){
+    body.className = "light-mode"
+  } else{
+    body.className = "dev-mode"
+  }
+}
