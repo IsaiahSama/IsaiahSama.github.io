@@ -28,7 +28,7 @@ links.forEach((element) => {
 const toggleDevMode = () => {
   let body = document.body;
 
-  if (body.className == "dev-modeTi"){
+  if (body.className == "dev-mode"){
     body.className = "light-mode"
   } else{
     body.className = "dev-mode"
