@@ -12,7 +12,7 @@
   /* margin-left: 20%;
   margin-top: 2em;
   margin-bottom: 1em; */
-  background-color: rgb(246, 243, 252);
+  background-color: var(--project-box-color);
   filter: drop-shadow(-2px 5px 4px rgb(205, 196, 223));
   /* border: 2px darkblue dashed; */
 }
@@ -31,6 +31,10 @@
   display: grid;
   grid-template-columns: 33% 33% 33%;
 }
+/* 
+.dark-mode .project-box{
+  background-color: #333;
+} */
 
 @media only screen and (max-width: 600px) {
   .project-box {

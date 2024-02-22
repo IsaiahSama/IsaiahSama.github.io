@@ -1,5 +1,6 @@
 :root{
   --link-color: black;
+  --project-box-color: wheat;
 }
 
 * {
@@ -20,6 +21,8 @@
   background-color: rgb(1, 6, 19);
   color: rgb(6, 174, 6);
   --link-color: purple;
+  --project-box-color: rgb(3, 21, 67);
+
 }
 
 #devMode{
