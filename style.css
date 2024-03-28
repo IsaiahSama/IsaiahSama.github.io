@@ -13,8 +13,8 @@
 }
 
 .light-mode{
-  background-color: rgb(240, 207, 144);
-  color: rgb(43, 42, 42);
+  background-color: #D7CEC7;
+  color: #565656;
   --link-color: black;
   --project-box-color: wheat
 }

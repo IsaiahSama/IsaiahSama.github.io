@@ -27,10 +27,13 @@ links.forEach((element) => {
 
 const toggleDevMode = () => {
   let body = document.body;
+  let symbol = document.getElementById("devMode");
 
   if (body.className == "dev-mode"){
     body.className = "light-mode"
+    symbol.innerHTML = "☾️"
   } else{
     body.className = "dev-mode"
+    symbol.innerHTML = "☀️"
   }
 }
