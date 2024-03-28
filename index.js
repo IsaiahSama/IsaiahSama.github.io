@@ -31,7 +31,7 @@ const toggleDevMode = () => {
 
   if (body.className == "dev-mode"){
     body.className = "light-mode"
-    symbol.innerHTML = "☾️"
+    symbol.innerHTML = "🌜"
   } else{
     body.className = "dev-mode"
     symbol.innerHTML = "☀️"
