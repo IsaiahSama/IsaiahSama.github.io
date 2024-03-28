@@ -238,8 +238,11 @@ td {
 }
 
 .basic-link {
-  color: blue;
   text-decoration: underline;
+}
+
+.basic-link:hover {
+  color: rgb(99, 64, 153);
 }
 
 .footer {
