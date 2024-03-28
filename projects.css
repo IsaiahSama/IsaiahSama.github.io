@@ -4,6 +4,8 @@
   display: grid;
   grid-template-columns: 30% 30% 30%;
   grid-gap: 1.2em;
+  justify-content: center;
+  padding: 0.3em;
 }
 
 .project-box {
