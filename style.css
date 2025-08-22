@@ -3,6 +3,7 @@ body{
     color: rgb(224, 224, 224);
     background-color: black;
     margin-top: 0;
+    margin-bottom: 0;
     overflow-x: hidden;
     letter-spacing: 0.05em;;
 }
@@ -99,12 +100,27 @@ nav {
     margin: 0;
 }
 
+.connect{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.blue-button {
+    border: 4px solid rgb(59, 59, 241);
+}
+
+.gray-button {
+    border: 4px solid rgb(128, 128, 128);
+}
+
 button {
     background-color: rgba(0, 0, 0, 0);
     color: rgb(224, 224, 224);
     border: 3px solid rgba(82, 221, 36, 1);
     border-radius: 50px;
     padding: 0.6em 1.5em;
+    cursor: pointer;
 }
 
 .centered {
@@ -252,4 +268,12 @@ button {
 
 .project p {
     padding: 0.2em;
+}
+
+#finalSection {
+    background-image: url('/media/page/footer_image.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    border: none;
 }
