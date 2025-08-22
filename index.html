@@ -18,7 +18,7 @@
             </div>
             <div id="navContainer">
                 <ul>
-                    <li><a href="#home" class="selected">Home</a></li>
+                    <li><a href="/" class="selected">Home</a></li>
                     <li><a href="#aboutSection">About</a></li>
                     <li><a href="#projectsSection">Projects</a></li>
                     <li><a href="#connectSection">Contact</a></li>
@@ -32,8 +32,10 @@
                 <p><small>Redefining Limits</small></p>
                 <a href="/media/isaiah_carrington_resume.pdf" target="_blank"><button>View Resume</button></a>
                 <div class="connect">
-                    <a href="https://www.linkedin.com/in/isaiah-carrington/" target="_blank"><button class="blue-button">LinkedIn</button></a>
-                    <a href="https://github.com/IsaiahSama" target="_blank"><button class="gray-button">GitHub</button></a>
+                    <a href="https://www.linkedin.com/in/isaiah-carrington/" target="_blank"><button
+                            class="blue-button">LinkedIn</button></a>
+                    <a href="https://github.com/IsaiahSama" target="_blank"><button
+                            class="gray-button">GitHub</button></a>
                 </div>
             </div>
         </div>
@@ -43,7 +45,8 @@
         <div id="aboutContainer">
             <img src="/media/personal/isaiah.jpg" alt="Picture of Isaiah" style="max-height: 300px;">
             <div id="aboutText">
-                <p>Hey, I'm Isaiah Carrington, a <span class="highlight">Software Engineer</span> with a passion for Utility Software
+                <p>Hey, I'm Isaiah Carrington, a <span class="highlight">Software Engineer</span> with a passion for
+                    Utility Software
                     Development, taking great joy and pride in creating tools that benefit developers and regular
                     consumers alike.</p>
                 <p>Here's some of the beneficial work I've done:</p>
@@ -67,9 +70,13 @@
         <div id="tagsContainer">
             <ul id="tagsList">
                 <li>Zindi Ambassador</li>
-                <li><div class="separator"></div></li>
+                <li>
+                    <div class="separator"></div>
+                </li>
                 <li>Automation Engineer</li>
-                <li><div class="separator"></div></li>
+                <li>
+                    <div class="separator"></div>
+                </li>
                 <li>Versatile Developer</li>
             </ul>
         </div>
@@ -229,6 +236,23 @@
     </section>
     <section id="finalSection" class="centered">
     </section>
+
+    <div id="backToTopBtn" title="Back to Top">Back to top</div>
 </body>
+<script>
+    // Show/hide button on scroll
+    const backToTopBtn = document.getElementById('backToTopBtn');
+    window.onscroll = function () {
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            backToTopBtn.style.display = "block";
+        } else {
+            backToTopBtn.style.display = "none";
+        }
+    };
+    // Scroll to top on click
+    backToTopBtn.onclick = function () {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+</script>
 
 </html>

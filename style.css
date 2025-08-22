@@ -1,11 +1,12 @@
 /* Misc */
-body{
+body {
     color: rgb(224, 224, 224);
     background-color: black;
     margin-top: 0;
     margin-bottom: 0;
     overflow-x: hidden;
-    letter-spacing: 0.05em;;
+    letter-spacing: 0.05em;
+    ;
 }
 
 ul {
@@ -13,20 +14,20 @@ ul {
     padding: 0;
 }
 
-ul > li > a {
+ul>li>a {
     color: rgb(224, 224, 224);
     text-decoration: none;
 }
 
-.highlight{
+.highlight {
     color: rgba(82, 221, 36, 1);
 }
 
-img{
+img {
     object-fit: contain;
 }
 
-.rounded{
+.rounded {
     padding: .2em .5em;
     width: 30px;
     height: 30px;
@@ -39,11 +40,11 @@ h1 {
     color: white;
 }
 
-h2{ 
+h2 {
     color: rgb(218, 217, 217);
 }
 
-section{
+section {
     min-height: 100vh;
     padding: 0.3em;
     border-bottom: 2px solid rgba(82, 221, 36, 1);
@@ -62,17 +63,17 @@ nav {
     align-items: center;
 }
 
-.selected{
+.selected {
     color: rgba(82, 221, 36, 1)
 }
 
-#nameContainer{
+#nameContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#navContainer > ul {
+#navContainer>ul {
     display: flex;
     flex: 1;
     justify-content: space-between;
@@ -100,7 +101,7 @@ nav {
     margin: 0;
 }
 
-.connect{
+.connect {
     margin-top: 1em;
     display: flex;
     justify-content: space-evenly;
@@ -137,11 +138,11 @@ button {
     align-items: center
 }
 
-#aboutText{
+#aboutText {
     max-width: 50%;
 }
 
-#aboutText ul{
+#aboutText ul {
     list-style-type: disc;
     padding-left: 1.5em;
 }
@@ -150,7 +151,7 @@ button {
     margin: 0.5em 0;
 }
 
-#tagsContainer{
+#tagsContainer {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -169,12 +170,12 @@ button {
     margin: 0.5em 1em;
 }
 
-.separator{
+.separator {
     border-bottom: 2px solid rgba(82, 221, 36, 1);
     width: 50px;
 }
 
-#skillsSection{
+#skillsSection {
     justify-content: space-evenly;
     background-color: rgba(26, 26, 26, 1);
 }
@@ -185,14 +186,14 @@ button {
     border-radius: 15px;
 }
 
-#skillsList{
+#skillsList {
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 1em;
     align-items: baseline;
 }
 
-#skillsList > li {
+#skillsList>li {
     text-align: center;
 }
 
@@ -207,7 +208,7 @@ button {
     align-items: center;
 }
 
-.experience > img {
+.experience>img {
     padding: .2em .5em;
     width: 30px;
     height: 30px;
@@ -225,7 +226,7 @@ button {
     min-height: 5em;
 }
 
-.experienceDuration{
+.experienceDuration {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -235,12 +236,12 @@ button {
     max-height: 5em;
 }
 
-#projectsSection{
+#projectsSection {
     background-color: rgba(26, 26, 26, 1);
     height: 120vh;
 }
 
-#projectList{
+#projectList {
     display: grid;
     grid-template-columns: auto auto;
     gap: 1em;
@@ -258,11 +259,11 @@ button {
     height: 80%;
 }
 
-.project > h3 {
+.project>h3 {
     text-align: center;
 }
 
-.project > h3 > a{
+.project>h3>a {
     color: rgba(82, 221, 36, 1);
 }
 
@@ -276,4 +277,27 @@ button {
     display: flex;
     flex-direction: column;
     border: none;
+}
+
+#backToTopBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background: #222;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 40px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    padding: 1em;
+}
+
+#backToTopBtn:hover {
+    background: #0078d4;
 }
