@@ -17,6 +17,14 @@ ul > li > a {
     text-decoration: none;
 }
 
+.highlight{
+    color: rgba(82, 221, 36, 1);
+}
+
+img{
+    object-fit: contain;
+}
+
 /* Stylin' */
 
 h1 {
@@ -97,4 +105,58 @@ button {
     border: 3px solid rgba(82, 221, 36, 1);
     border-radius: 50px;
     padding: 0.6em 1.5em;
+}
+
+section > h2 {
+    text-align: center;
+}
+
+#aboutSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#aboutContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center
+}
+
+#aboutText{
+    max-width: 50%;
+}
+
+#aboutText ul{
+    list-style-type: disc;
+    padding-left: 1.5em;
+}
+
+#aboutText ul li {
+    margin: 0.5em 0;
+}
+
+#tagsContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1em 0;
+}
+
+#tagsContainer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+#tagsContainer li {
+    margin: 0.5em 1em;
+}
+
+.separator{
+    border-bottom: 2px solid rgba(82, 221, 36, 1);
+    width: 50px;
 }
