@@ -5,36 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Isaiah Carrington - Portfolio</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/media/personal/isial.jpg">
 </head>
 
 <body>
     <section id="introSection">
         <nav>
             <div id="nameContainer">
-                <img id="profilePicture" src="/media/isaiah_head.jpeg"
-                    alt="Profile picture" width="50" height="50">
-                <h1>Isaiah Carrington</h1>
+                <img id="profilePicture" src="/media/personal/isaiah_head.jpeg" alt="Profile picture" width="50" height="50">
+                <p>Isaiah Carrington</p>
             </div>
             <div id="navContainer">
                 <ul>
-                    <li><a href="#home">Home</a></li>
+                    <li><a href="#home" class="selected">Home</a></li>
                     <li><a href="#aboutSection">About</a></li>
                     <li><a href="#projectsSection">Projects</a></li>
                     <li><a href="#connectSection">Contact</a></li>
                 </ul>
             </div>
         </nav>
-        <div class="container">
-            <h1>Isaiah Carrington</h1>
-            <h2>Software Engineer, Problem Solver</h2>
-            <p><i>Redefining Limits</i></p>
-            <a href="/media/isaiah_carrington_resume.pdf" target="_blank"><button>View Resume</button></a>
+        <div class="centerWrapper">
+            <div class="container" id="introContainer">
+                <h1>Isaiah Carrington</h1>
+                <h2>Software Engineer, Problem Solver</h2>
+                <p><small>Redefining Limits</small></p>
+                <a href="/media/isaiah_carrington_resume.pdf" target="_blank"><button>View Resume</button></a>
+            </div>
         </div>
     </section>
     <section id="aboutSection">
         <h2>Who am I?</h2>
         <div id="aboutContainer">
-            <img src="/media/isaiah.jpg" alt="Picture of Isaiah" style="max-height: 200px;">
+            <img src="/media/personal/isaiah.jpg" alt="Picture of Isaiah" style="max-height: 200px;">
             <div id="aboutText">
                 <p>Hey, I'm Isaiah Carrington, a <span>Software Engineer</span> with a passion for Utility Software
                     Development, taking great joy and pride in creating tools that benefit developers and regular
@@ -73,7 +76,8 @@
             <ul id="skillsList">
                 <li>
                     <div class="skill">
-                        <img src="https://th.bing.com/th/id/R.1afd6ab3067fca680eabe2d33fd766ab?rik=R7koNk64SX9tqg&pid=ImgRaw&r=0" alt="Skill Image" width="50px">
+                        <img src="https://th.bing.com/th/id/R.1afd6ab3067fca680eabe2d33fd766ab?rik=R7koNk64SX9tqg&pid=ImgRaw&r=0"
+                            alt="Skill Image" width="50px">
                         <p>Azure and Cloud First</p>
                     </div>
                 </li>
@@ -97,13 +101,15 @@
                 </li>
                 <li>
                     <div class="skill">
-                        <img src="https://cdn.freebiesupply.com/logos/large/2x/git-icon-logo-png-transparent.png" alt="Skill Image" width="50px">
+                        <img src="https://cdn.freebiesupply.com/logos/large/2x/git-icon-logo-png-transparent.png"
+                            alt="Skill Image" width="50px">
                         <p>Git, Version Control & CI / CD</p>
                     </div>
                 </li>
                 <li>
                     <div class="skill">
-                        <img src="https://logos-world.net/wp-content/uploads/2021/02/Docker-Emblem.png" alt="Skill Image" width="50px">
+                        <img src="https://logos-world.net/wp-content/uploads/2021/02/Docker-Emblem.png"
+                            alt="Skill Image" width="50px">
                         <p>Containers & Docker</p>
                     </div>
                 </li>
@@ -185,7 +191,8 @@
             <li>
                 <div class="project">
                     <h3><a href="https://github.com/IsaiahSama/BodyTrackingAvatar">Body Tracking Avatar</a></h3>
-                    <p>Python program that reads from a camera feed, detects and tracks human body parts, and "animates" a character model running in a different process.</p>
+                    <p>Python program that reads from a camera feed, detects and tracks human body parts, and "animates"
+                        a character model running in a different process.</p>
                     <p><b>Technologies Used:</b> OpenCV, Mediapipe, Python, WebSockets, Pygame</p>
                 </div>
             </li>
@@ -199,19 +206,22 @@
             <li>
                 <div class="project">
                     <h3><a href="https://github.com/IsaiahSama/BajanInsider">BajanInsider</a></h3>
-                    <p> Web application, which webscrapes news from various news sources, indexes, and compiles them into one location.</p>
+                    <p> Web application, which webscrapes news from various news sources, indexes, and compiles them
+                        into one location.</p>
                     <p><b>Technologies Used:</b> FastAPI, BeautifulSoup, Python, JavaScript</p>
                 </div>
             </li>
             <li>
                 <div class="project">
                     <h3><a href="https://github.com/IsaiahSama/GetUpDev">Get Up Dev</a></h3>
-                    <p>Python application that encourages the user to stretch every `n` minutes by taking control of their mouse for a brief period.</p>
+                    <p>Python application that encourages the user to stretch every `n` minutes by taking control of
+                        their mouse for a brief period.</p>
                     <p><b>Technologies Used:</b> PyAutoGUI, Python, TKinter</p>
                 </div>
             </li>
         </ul>
-        <a href="https://github.com/IsaiahSama?tab=repositories" target="_blank"><button>View All (Open Source) Projects</button></a>
+        <a href="https://github.com/IsaiahSama?tab=repositories" target="_blank"><button>View All (Open Source)
+                Projects</button></a>
     </section>
     <section id="connectSection">
         <h2>Connect with Me</h2>
@@ -221,7 +231,8 @@
         </ul>
     </section>
     <section id="closingSection">
-        <img src="/media/footer_image.png" alt="PUSH BUTTONS AND WIN!">
+        <img src="/media/page/footer_image.png" alt="PUSH BUTTONS AND WIN!">
     </section>
 </body>
+
 </html>
