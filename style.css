@@ -322,11 +322,12 @@ button {
     background: #0078d4;
 }
 
-.footer{
+.footer {
     display: flex;
     flex-direction: column-reverse;
     min-height: 100vh;
     text-align: center;
+    padding: 1em;
 }
 
 /* Mobile Responsive Styles */
@@ -355,17 +356,17 @@ button {
         gap: 1rem;
     }
 
-    #nameContainer{
+    #nameContainer {
         display: flex;
         flex-direction: column-reverse;
     }
 
-    #profilePicture{
+    #profilePicture {
         height: 200px;
         width: 200px;
     }
 
-    #nameContainer p{
+    #nameContainer p {
         display: none;
     }
 
