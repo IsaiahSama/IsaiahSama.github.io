@@ -6,7 +6,6 @@ body {
     margin-bottom: 0;
     overflow-x: hidden;
     letter-spacing: 0.05em;
-    ;
 }
 
 ul {
@@ -78,6 +77,13 @@ nav {
     flex: 1;
     justify-content: space-between;
     gap: 2rem;
+}
+
+#quote {
+    font-style: italic;
+    color: rgba(82, 221, 36, 1);
+    text-decoration: underline;
+    font-size: small;
 }
 
 .centerWrapper {
@@ -204,7 +210,7 @@ button {
     margin: 1em;
     border-radius: 15px;
     padding: 0.5em;
-    font-size: smaller;
+    font-size: large;
     align-items: center;
 }
 
@@ -273,7 +279,9 @@ button {
 
 #finalSection {
     background-image: url('/media/page/footer_image.png');
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     flex-direction: column;
     border: none;
@@ -300,6 +308,13 @@ button {
 
 #backToTopBtn:hover {
     background: #0078d4;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column-reverse;
+    min-height: 100vh;
+    text-align: center;
 }
 
 /* Mobile Responsive Styles */
