@@ -107,11 +107,7 @@ button {
     padding: 0.6em 1.5em;
 }
 
-section > h2 {
-    text-align: center;
-}
-
-#aboutSection {
+.centered {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -160,3 +156,26 @@ section > h2 {
     border-bottom: 2px solid rgba(82, 221, 36, 1);
     width: 50px;
 }
+
+#skillsSection{
+    justify-content: space-evenly;
+    background-color: rgba(26, 26, 26, 1);
+}
+
+#skillsContainer {
+    padding: 2em;
+    background-color: rgba(51, 51, 51, 1);
+    border-radius: 15px;
+}
+
+#skillsList{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 1em;
+    align-items: baseline;
+}
+
+#skillsList > li {
+    text-align: center;
+}
+
