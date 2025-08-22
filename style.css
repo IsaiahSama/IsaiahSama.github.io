@@ -158,7 +158,7 @@ button {
     margin: 1em 0;
 }
 
-#tagsContainer ul {
+#tagsList {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -300,4 +300,140 @@ button {
 
 #backToTopBtn:hover {
     background: #0078d4;
+}
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+
+    /* Basic adjustments */
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    section {
+        padding: 2rem 1rem;
+    }
+
+    #finalSection {
+        background-size: cover;
+        background-position: center;
+        min-height: 50vh;
+    }
+
+    /* Navigation adjustments */
+    nav {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    #navContainer>ul {
+        display: none;
+    }
+
+    /* Intro section adjustments */
+    #introContainer h1 {
+        font-size: 2.2em;
+    }
+
+    /* About section adjustments */
+    #aboutSection {
+        padding: 1rem;
+    }
+
+    #aboutContainer {
+        flex-direction: column;
+        gap: 2rem;
+        width: 100%;
+    }
+
+    #aboutText {
+        max-width: 100%;
+        width: 100%;
+        text-align: left;
+    }
+
+    /* Skills section adjustments */
+    #skillsList {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    /* Experience section adjustments */
+    .experience {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .roleCompany,
+    .experienceDuration {
+        text-align: center;
+        padding: 0.5rem;
+    }
+
+    /* Projects section adjustments */
+    #projectsSection {
+        height: auto;
+        padding-bottom: 2rem;
+    }
+
+    #projectList {
+        grid-template-columns: 1fr;
+        width: 95%;
+    }
+
+    .project {
+        height: auto;
+    }
+
+    /* Back to top button adjustment */
+    #backToTopBtn {
+        width: 35px;
+        height: 35px;
+        font-size: 0.8em;
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .separator {
+        display: none;
+    }
+
+    #tagsList {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #tagsList li {
+        margin: 0.5em 1em;
+    }
+}
+
+/* Smaller mobile devices */
+@media screen and (max-width: 480px) {
+    #introContainer h1 {
+        font-size: 1.8em;
+    }
+
+    #skillsList {
+        grid-template-columns: 1fr;
+    }
+
+    #backToTopBtn {
+        width: 32px;
+        height: 32px;
+        padding: 0.5em;
+    }
+
+    .connect {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    button {
+        padding: 0.5em 1em;
+    }
 }
