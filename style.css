@@ -327,7 +327,6 @@ button {
     flex-direction: column-reverse;
     min-height: 100vh;
     text-align: center;
-    padding: 1em;
 }
 
 /* Mobile Responsive Styles */
@@ -344,6 +343,7 @@ button {
     }
 
     #finalSection {
+        background-image: none;
         background-size: cover;
         background-position: center;
         min-height: 50vh;
@@ -457,6 +457,16 @@ button {
     #matrixCanvas {
         display: none;
     }
+
+    #finalSection {
+        min-height: fit-content;
+    }
+
+    .footer{
+        flex-direction: column;
+        min-height: fit-content;
+    }
+
 }
 
 /* Smaller mobile devices */
