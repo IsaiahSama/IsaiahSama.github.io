@@ -308,7 +308,6 @@ button {
     /* Basic adjustments */
     body {
         margin: 0;
-        padding: 0;
     }
 
     section {
@@ -326,6 +325,20 @@ button {
         flex-direction: column;
         padding: 1rem;
         gap: 1rem;
+    }
+
+    #nameContainer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #profilePicture{
+        height: 200px;
+        width: 200px;
+    }
+
+    #nameContainer p{
+        display: none;
     }
 
     #navContainer>ul {
