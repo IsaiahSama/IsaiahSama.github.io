@@ -402,9 +402,10 @@ button {
 
     /* Back to top button adjustment */
     #backToTopBtn {
+        padding: 0.5em;
         width: 35px;
         height: 35px;
-        font-size: 0.8em;
+        font-size: 0.6em;
         bottom: 10px;
         right: 10px;
     }
