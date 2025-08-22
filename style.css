@@ -25,6 +25,13 @@ img{
     object-fit: contain;
 }
 
+.rounded{
+    padding: .2em .5em;
+    width: 30px;
+    height: 30px;
+    border-radius: 70%;
+}
+
 /* Stylin' */
 
 h1 {
@@ -62,13 +69,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-#profilePicture{
-    padding: .2em .5em;
-    width: 30px;
-    height: 30px;
-    border-radius: 70%;
 }
 
 #navContainer > ul {
@@ -179,3 +179,41 @@ button {
     text-align: center;
 }
 
+.experience {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(26, 26, 26, 1);
+    margin: 1em;
+    border-radius: 15px;
+    padding: 0.5em;
+    font-size: smaller;
+    align-items: center;
+}
+
+.experience > img {
+    padding: .2em .5em;
+    width: 30px;
+    height: 30px;
+    border-radius: 70%;
+}
+
+.experience a {
+    color: rgb(224, 224, 224);
+}
+
+.roleCompany {
+    flex: 1;
+    padding: 0.5em;
+    max-height: 5em;
+    min-height: 5em;
+}
+
+.experienceDuration{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: right;
+    padding: 0.5em;
+    min-height: 5em;
+    max-height: 5em;
+}
