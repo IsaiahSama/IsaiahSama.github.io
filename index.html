@@ -7,6 +7,7 @@
     <title>Isaiah Carrington - Portfolio</title>
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" href="/media/personal/isial.jpg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
 </head>
 
 <body>
@@ -33,6 +34,7 @@
                 <h2>Software Engineer, Problem Solver</h2>
                 <p id="quote">Redefining Limits</p>
                 <a href="/media/isaiah_carrington_resume.pdf" target="_blank"><button>View Resume</button></a>
+                <p>Connect with me:</p>
                 <div class="connect">
                     <a href="https://www.linkedin.com/in/isaiah-carrington/" target="_blank"><button
                             class="blue-button">LinkedIn</button></a>
@@ -203,6 +205,10 @@
         <ul id="projectList">
             <li>
                 <div class="project">
+                    <div class="centered">
+                        <img class='projectImage' src="./media/projects/BodyTrackingAvatar.png"
+                            alt="Image of BodyTrackingAvatar">
+                    </div>
                     <h3><a href="https://github.com/IsaiahSama/BodyTrackingAvatar">Body Tracking Avatar</a></h3>
                     <p>Python program that reads from a camera feed, detects and tracks human body parts, and "animates"
                         a character model running in a different process.</p>
@@ -211,6 +217,9 @@
             </li>
             <li>
                 <div class="project">
+                    <div class="centered">
+                        <img class='projectImage' src="./media/placeholder.png" alt="Placeholder image of MD Study RAG">
+                    </div>
                     <h3><a href="https://github.com/IsaiahSama/MDStudyRAG">MDStudyRAG</a></h3>
                     <p>Python application designed to perform RAG, specifically on Markdown files.</p>
                     <small><b>Technologies Used:</b> Gemini, ChromaDB, Python, Markdown</small>
@@ -218,6 +227,10 @@
             </li>
             <li>
                 <div class="project">
+                    <div class="centered">
+                        <img class='projectImage' src="./media/projects/BajanInsider.png"
+                            alt="Image of Bajan Insider Logo">
+                    </div>
                     <h3><a href="https://github.com/IsaiahSama/BajanInsider">BajanInsider</a></h3>
                     <p> Web application, which webscrapes news from various news sources, indexes, and compiles them
                         into one location.</p>
@@ -226,6 +239,9 @@
             </li>
             <li>
                 <div class="project">
+                    <div class="centered">
+                        <img class='projectImage' src="./media/projects/GetUpDev.png" alt="Image of Get Up Dev UI">
+                    </div>
                     <h3><a href="https://github.com/IsaiahSama/GetUpDev">Get Up Dev</a></h3>
                     <p>Python application that encourages the user to stretch every `n` minutes by taking control of
                         their mouse for a brief period.</p>
@@ -257,7 +273,7 @@
     };
     // Scroll to top on click
     backToTopBtn.onclick = function () {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        window.scrollTo({top: 0, behavior: 'smooth'});
     };
 </script>
 <script>
@@ -274,6 +290,7 @@
     const drops = Array(Math.floor(columns)).fill(1);
 
     function draw() {
+        ctx.globalAlpha = 0.4;
         ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
         ctx.fillRect(0, 0, canvas.width, canvas.height);
 
@@ -289,6 +306,7 @@
             }
             drops[i]++;
         }
+        ctx.globalAlpha = 1.0;
     }
 
     setInterval(draw, 50);
