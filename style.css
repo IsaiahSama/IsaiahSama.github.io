@@ -310,7 +310,6 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
     position: fixed;
     bottom: 15px;
     right: 15px;
@@ -318,11 +317,12 @@ button {
     color: #fff;
     border: none;
     border-radius: 50%;
-    width: 45px;
+    width: 40px;
     height: 40px;
     cursor: pointer;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-    padding: 1em;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 #backToTopBtn:hover {
@@ -438,10 +438,9 @@ button {
 
     /* Back to top button adjustment */
     #backToTopBtn {
-        padding: 0.5em;
+        padding: 0;
         width: 35px;
         height: 35px;
-        font-size: 0.6em;
         bottom: 10px;
         right: 10px;
     }
@@ -489,7 +488,7 @@ button {
     #backToTopBtn {
         width: 32px;
         height: 32px;
-        padding: 0.5em;
+        padding: 0;
     }
 
     .connect {
